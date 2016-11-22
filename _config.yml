@@ -1,0 +1,38 @@
+# Site settings
+name: 小李的博客
+email: acmer_li@126.com
+author: Leo Li
+url: http://www.hifreud.com
+resume_site: http://www.hifreud.com/Resume.io/
+github: https://github.com/xiaoli000/blog/
+baseurl: "/blog"
+description: Actually, less is more!
+meta_description: 小李;个人博客
+motto: It's our wits that make us men.
+banner: 学而不思则罔，思而不学则殆。
+gems: [jekyll-paginate]
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: xiaoli000
+highlighter: rouge
+
+# Build settings
+markdown: kramdown
+
+FB:
+  comments :
+    provider : duoshuo
+    duoshuo:
+        short_name : luoyan35714
+    disqus :
+        short_name : freudkang
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light
