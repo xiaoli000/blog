@@ -22,8 +22,8 @@ github_username: xiaoli000
 highlighter: rouge
 
 # Build settings
-markdown: kramdown
 highlighter: pygments
+markdown: kramdown
 kramdown:
   input:         GFM
   auto_ids:      true
