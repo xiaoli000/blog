@@ -19,15 +19,15 @@ paginate: 10
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
 github_username: xiaoli000
-#highlighter: rouge
+highlighter: rouge
 
 # Build settings
 #highlighter: pygments
 markdown: kramdown
-#kramdown:
-#  input:         GFM
-#  auto_ids:      true
-#  auto_id_prefix:'id-'
+kramdown:
+  input:         GFM
+  auto_ids:      true
+  auto_id_prefix:'id-'
 highlighter: pygments
 markdown: redcarpet
 redcarpet:
