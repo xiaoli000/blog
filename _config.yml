@@ -22,11 +22,11 @@ github_username: xiaoli000
 highlighter: rouge
 
 # Build settings
-highlighter: pygments
+#highlighter: pygments
 markdown: kramdown
-kramdown:
-  input:         GFM
-  auto_ids:      true
+#kramdown:
+#  input:         GFM
+#  auto_ids:      true
 #  auto_id_prefix:'id-'
   
 FB:
