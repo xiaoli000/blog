@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 欢迎页
+title: 如何使用Github Pages快速搭建博客网站
 date: '2016-11-23 16:26:01 +0800'
 categories: 欢迎页
 tag: 欢迎页
@@ -10,31 +10,12 @@ published: true
 * content
 {:toc}
 
+## github
+1.在https://github.com/上注册账号
+2.创建仓库
 
-First POST build by Jekyll.
 
 
-欢迎页
-------------------------
-{% highlight ruby %}
-   System.out.println("hello world");
-   for (int i = 0; i < 100; i ++) {
-        new Object();
-   }
-{% endhighlight %}
-```ruby
-   System.out.println("hello world");
-   for (int i = 0; i < 100; i ++) {
-        new Object();
-   }
-   def show
-      @widget = Widget(params[:id])
-      respond_to do |format|
-        format.html # show.html.erb
-        format.json { render json: @widget }
-      end
-    end
-```
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
