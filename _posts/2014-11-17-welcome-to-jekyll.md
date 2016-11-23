@@ -10,6 +10,8 @@ published: true
 * content
 {:toc}
 
+正在建设中。。。
+------------------------
 ## github
 1.在https://github.com/上注册账号
 2.创建仓库
