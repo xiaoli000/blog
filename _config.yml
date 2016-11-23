@@ -23,6 +23,7 @@ highlighter: rouge
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 
 FB:
   comments :
