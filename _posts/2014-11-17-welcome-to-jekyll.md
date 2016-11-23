@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "欢迎页"
-date:   2014-11-17 13:31:01 +0800
-categories: jekyll
-tag: jekyll
+date:   2016-11-23 16:26:01 +0800
+categories: 欢迎
+tag: 欢迎
 ---
 
 * content
