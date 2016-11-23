@@ -22,8 +22,23 @@ github_username: xiaoli000
 highlighter: rouge
 
 # Build settings
+#highlighter: pygments
 markdown: kramdown
-
+kramdown:
+  input:         GFM
+  auto_ids:      true
+  syntax_highlighter: rouge
+#  auto_id_prefix:'id-'
+#highlighter: pygments
+#markdown: redcarpet
+#redcarpet:
+#  extensions:
+#    - fenced_code_blocks
+#    - no_intra_emphasis
+#    - strikethrough
+#    - autolink
+#    - tables
+  
 FB:
   comments :
     provider : duoshuo
