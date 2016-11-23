@@ -15,12 +15,14 @@ First POST build by Jekyll.
 
 欢迎页
 ------------------------
+{ % highlight javascript % }
 ```js
    System.out.println("hello world");
    for (int i = 0; i < 100; i ++) {
         new Object();
    }
 ```
+{ % endhighlight% }
 
 
 [jekyll]:      http://jekyllrb.com
