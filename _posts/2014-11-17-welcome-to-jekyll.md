@@ -17,7 +17,9 @@ First POST build by Jekyll.
 ------------------------
 ```js
    System.out.println("hello world");
-
+   for (int i = 0; i < 100; i ++) {
+        new Object();
+   }
 ```
 
 
