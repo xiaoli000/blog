@@ -2,8 +2,8 @@
 layout: post
 title:  "欢迎页"
 date:   2016-11-23 16:26:01 +0800
-categories: 欢迎
-tag: 欢迎
+categories: welcome
+tag: welcome
 ---
 
 * content
