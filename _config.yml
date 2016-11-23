@@ -27,7 +27,7 @@ markdown: kramdown
 kramdown:
   input:         GFM
   auto_ids:      true
-  auto_id_prefix:'id-'
+#  auto_id_prefix:'id-'
   
 FB:
   comments :
