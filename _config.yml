@@ -24,7 +24,11 @@ highlighter: rouge
 # Build settings
 markdown: kramdown
 highlighter: pygments
-
+kramdown:
+  input:         GFM
+  auto_ids:      true
+  auto_id_prefix:'id-'
+  
 FB:
   comments :
     provider : duoshuo
