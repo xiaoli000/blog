@@ -21,7 +21,7 @@ First POST build by Jekyll.
         new Object();
    }
 {% endhighlight %}
-```ruby
+~~~ruby
    System.out.println("hello world");
    for (int i = 0; i < 100; i ++) {
         new Object();
@@ -33,7 +33,7 @@ First POST build by Jekyll.
         format.json { render json: @widget }
       end
     end
-```
+~~~
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
