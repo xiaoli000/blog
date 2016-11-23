@@ -15,7 +15,7 @@ First POST build by Jekyll.
 
 欢迎页
 ------------------------
-```java
+```js
    System.out.println("hello world");
 
 ```
