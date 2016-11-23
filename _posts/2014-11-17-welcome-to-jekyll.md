@@ -2,7 +2,7 @@
 layout: post
 title:  "欢迎页"
 date:   2016-11-23 16:26:01 +0800
-categories: jekyll
+categories: 欢迎页
 tag: 欢迎页
 ---
 
