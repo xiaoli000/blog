@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "欢迎页"
-date:   2016-11-23 16:26:01 +0800
+title: 欢迎页
+date: '2016-11-23 16:26:01 +0800'
 categories: 欢迎页
 tag: 欢迎页
+published: true
 ---
 
 * content
@@ -21,8 +22,8 @@ First POST build by Jekyll.
         new Object();
    }
 {% endhighlight %}
-~~~ruby
-   System.out.println("hello world");
+```ruby
+   System.out.println("Hello world!");
    for (int i = 0; i < 100; i ++) {
         new Object();
    }
@@ -33,7 +34,7 @@ First POST build by Jekyll.
         format.json { render json: @widget }
       end
     end
-~~~
+```
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
