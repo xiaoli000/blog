@@ -6458,6 +6458,10 @@ hr {
   .panel.docs-content.main .home ul{
     padding-left: 0;
   }
+  .panel.docs-content.main {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 .docs-section + .docs-section {
   padding-top: 40px;
