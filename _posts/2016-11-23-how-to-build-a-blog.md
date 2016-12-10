@@ -112,7 +112,19 @@ published: true
 
 1. `_config.yml`文件中添加`highlighter: rouge`。
 
-2. 命令行执行`rougify help style`查看有哪些样式可用，如选择base16.monokai可执行`rougify style base16.monokai >> syntax.css`生成css文件，引入博客站点中。
+2. 命令行执行
+
+```python
+~ $ rougify help style
+```
+
+查看有哪些样式可用，如选择base16.monokai可执行
+
+```python
+~ $ rougify style base16.monokai >> syntax.css
+```
+
+生成css文件，引入博客站点中。
 
 遇到了什么问题？
 ------------------------
