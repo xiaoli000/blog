@@ -3,9 +3,9 @@ layout: post
 title: 如何使用Github Pages快速搭建博客网站
 date: '2016-11-23 16:26:01 +0800'
 categories: 工具
-tags: 
-     - 搭建博客
-     - Github Pages
+tags:
+  - 搭建博客
+  - Github Pages
 published: true
 ---
 
@@ -41,6 +41,7 @@ published: true
 ***
 
 ### Github Pages
+
 ##### **1.注册账号**
 在<https://github.com/>上注册账号并验证邮箱。
 
