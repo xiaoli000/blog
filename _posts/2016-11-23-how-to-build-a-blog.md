@@ -137,6 +137,20 @@ published: true
     margin-top: -70px;
 }
 ```
+#### 4、markdown转换html错误
+<pre>
+基本解决方案都是发生错误的标签前面多加个空行。
+</pre>	
+比如 `##### 标题` 本应该转换成`<h5>标题</h5>`，但实际未发生转换，`##### 标题`前空一行就可以了。
+
+还遇到过一种情况是
+
+<pre>
+```shell
+~ $ echo hello
+```
+</pre>
+PC端正常转换成了`<pre><code>~ $ echo hello</code></pre>`，但无线端却转换成了`<code> shell~ $ echo hello</code>`，加空行也能解决该问题。
 
 ## 相关资料
 * [jekyll结构](http://jekyllcn.com/docs/structure/)
