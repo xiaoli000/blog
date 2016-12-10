@@ -68,11 +68,12 @@ published: true
 
 2.安装jekyll；
 
-```css
+```python
 ~ $ sudo gem install jekyll
 ```
 3.如果没有下载别人提供的[jekyll模板](http://jekyllthemes.org/)，而是自己搭建jekyll，可以执行下面命令初始化目录：
-```css
+
+```python
 ~ $ cd myblog
 ~/myblog $ jekyll new .
 ```
