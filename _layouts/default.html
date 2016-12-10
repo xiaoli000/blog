@@ -6,9 +6,10 @@
   <body class="index">
 
     {% include header.html %}
-    {% include docs_header.html %}
     {% if page.title %}
-      {% include banner.html %}
+      {% comment %} {% include banner.html %} {% endcomment %}
+    {% else %}
+      {% include docs_header.html %}   
     {% endif %}
 
     {{ content }}

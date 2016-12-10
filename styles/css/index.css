@@ -102,6 +102,7 @@ sub {
 }
 img {
   border: 0;
+  max-width: 100%;/*适配小屏幕*/
 }
 svg:not(:root) {
   overflow: hidden;
@@ -245,9 +246,9 @@ table {
     border: 1px solid #ddd !important;
   }
 }
-p {
+/*p {
   margin: 0 0 10px;
-}
+}*/
 /*.lead {
   margin-bottom: @line-height-computed;
   font-size: floor(@font-size-base * 1.15);
@@ -544,13 +545,17 @@ pre,
 samp {
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
 }
-code {
+*:not(pre) > code {/*自定义*/
+  border: 1px solid #ddd;
   padding: 2px 4px;
-  font-size: 90%;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-size: 12px;
   color: #c7254e;
-  background-color: #f9f2f4;
+/*  background-color: #f9f2f4;*/
+  background-color: #f8f8f8;  
   white-space: nowrap;
   border-radius: 4px;
+  margin: 0 3px;
 }
 pre {
   display: block;
@@ -561,8 +566,7 @@ pre {
   word-break: break-all;
   word-wrap: break-word;
   color: #333333;
-  background-color: #f5f5f5;
-  border: 1px solid #cccccc;
+  background-color: #f7f7f7;
   border-radius: 4px;
 }
 pre code {
@@ -3520,7 +3524,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   max-height: 340px;
   overflow-x: visible;
   padding-right: 15px;
-  padding-left: 15px;
+/*  padding-left: 15px;*/  
   border-top: 1px solid transparent;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   -webkit-overflow-scrolling: touch;
@@ -3662,6 +3666,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
+}
+.docs-nav .navbar-nav > li > a.home {
+  color: white;
+  font-size: 30px;
+  padding-left: 0;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -6104,7 +6113,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, 'Microsoft YaHei', sans-serif;
+  font-family: 微软雅黑, Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -6125,7 +6134,7 @@ a {
 a:hover,
 a:focus {
   color: #2c4d68;
-  text-decoration: underline;
+/*  text-decoration: underline;*/
 }
 a:focus {
   outline: thin dotted #333;
@@ -6319,8 +6328,11 @@ hr {
 }
 .docs-header,
 .docs-home {
-  color: #b9c8e0;
+/*  color: #b9c8e0;
   background-color: #1d365d;
+*/
+  color: #fff;
+  background-color: #2E2E2E;
 }
 /* Page headers */
 .docs-header {
@@ -6428,8 +6440,13 @@ hr {
   padding: 0;
 }
 .docs-content {
-  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px #999;
+  /*-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);*/
+}
+.panel.docs-content.main {
+  margin-top: 50px;
 }
 .docs-section + .docs-section {
   padding-top: 40px;
@@ -6442,6 +6459,8 @@ hr {
 }
 /* First level of nav */
 .sidenav {
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px #999;
   margin-top: 30px;
   margin-bottom: 30px;
   padding-top: 10px;
@@ -6454,8 +6473,10 @@ hr {
 /* All levels of nav */
 .sidebar .nav > li > a {
   display: block;
-  color: #36556e;
+  /*color: #36556e;*/
+  color:#7a7a82;
   padding: 5px 20px;
+  font-family: 微软雅黑, Arial, Helvetica, sans-serif;
 }
 .sidebar .nav > li > a:hover,
 .sidebar .nav > li > a:focus {
@@ -6467,18 +6488,21 @@ hr {
 .sidebar .nav > .active:hover > a,
 .sidebar .nav > .active:focus > a {
   font-weight: bold;
-  color: #1d365d;
+  /*color: #1d365d;*/
   background-color: transparent;
-  border-right: 1px solid #1d365d;
+  color:#2E2E2E;
+  /*background-color: #2E2E2E;*/
+  border-right: 2px solid #1d365d;
 }
 .sidebar .nav .nav {
   display: none;
   margin-bottom: 8px;
+  padding-left: 15px;
 }
-.sidebar .nav .nav > li > a {
+/*.sidebar .nav .nav > li > a {
   padding: 3px 30px;
   font-size: 90%;
-}
+}*/
 .sidebar .glyphicon {
   font-size: 12px;
   margin-left: 10px;
@@ -6504,7 +6528,7 @@ hr {
   }
   .sidebar.affix .sidenav,
   .sidebar.affix-bottom .sidenav {
-    margin-top: 10px;
+    margin-top: 40px;
     margin-bottom: 0;
   }
 }
@@ -6516,7 +6540,8 @@ hr {
 }
 .docs-nav {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
-  background-color: #1d365d;
+/*  background-color: #1d365d;*/  
+  background-color: #2E2E2E;
   border-color: rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.07);
 }
@@ -6535,7 +6560,8 @@ hr {
 }
 .docs-nav .navbar-nav > li > a,
 .docs-nav .navbar-nav > li > span {
-  color: #b9c8e0;
+/*  color: #b9c8e0;*/
+    color: #fff;
 }
 .docs-nav .navbar-nav > li > a:hover,
 .docs-nav .navbar-nav > li > span:hover {
