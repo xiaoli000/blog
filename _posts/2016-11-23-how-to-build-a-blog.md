@@ -78,7 +78,7 @@ published: true
 4.进入Git项目目录，执行``jekyll serve``，默认可以检测实时变化，浏览器中访问http://localhost:4000(如果_config.yml中设置了baseurl，那么访问地址为http://localhost:4000/$baseurl)；
 
 如果是首次执行，执行过程中可能需要安装一些组件：
-```python
+```ruby
 ~ $ sudo gem install bundler
 ~ $ sudo gem install minima
 ~ $ sudo gem install jekyll-feed
