@@ -574,6 +574,8 @@ pre code {
   font-size: inherit;
   color: inherit;
   white-space: pre;
+  word-break: normal;
+  word-wrap: normal;
   overflow: auto;
   background-color: transparent;
   border-radius: 0;
