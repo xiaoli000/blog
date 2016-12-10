@@ -67,18 +67,20 @@ published: true
 1.安装ruby环境（mac os自带）；
 
 2.安装jekyll；
-```python
+
+```css
 ~ $ sudo gem install jekyll
 ```
 3.如果没有下载别人提供的[jekyll模板](http://jekyllthemes.org/)，而是自己搭建jekyll，可以执行下面命令初始化目录：
-```python
+```css
 ~ $ cd myblog
 ~/myblog $ jekyll new .
 ```
 4.进入Git项目目录，执行``jekyll serve``，默认可以检测实时变化，浏览器中访问http://localhost:4000(如果_config.yml中设置了baseurl，那么访问地址为http://localhost:4000/$baseurl)；
 
 如果是首次执行，执行过程中可能需要安装一些组件：
-```ruby
+
+```python
 ~ $ sudo gem install bundler
 ~ $ sudo gem install minima
 ~ $ sudo gem install jekyll-feed
