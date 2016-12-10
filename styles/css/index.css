@@ -6122,6 +6122,11 @@ body {
   color: #333333;
   background-color: #f7f7f7;
 }
+@media(max-width: 767px) {
+  body {
+    background-color: white;
+  }
+}
 input,
 button,
 select,
@@ -6443,13 +6448,14 @@ hr {
 .docs-content .container-fluid {
   padding: 0;
 }
-.docs-content {
-  border: 1px solid #ccc;
-  box-shadow: 0 0 10px #999;
-  /*-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);*/
-}
+
 @media (min-width: 768px) {
+  .docs-content {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #999;
+    /*-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);*/
+  }
   .panel.docs-content.main {
     margin-top: 50px;
   }
@@ -6461,6 +6467,7 @@ hr {
   .panel.docs-content.main {
     padding-left: 15px;
     padding-right: 15px;
+    box-shadow: 0 0 0 0;
   }
 }
 .docs-section + .docs-section {
